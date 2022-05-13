@@ -1,0 +1,122 @@
+/* primo ex. */
+
+.ex-1-square {
+    transition: 5s;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
+/* secondo ex. */
+
+.ex-2-square {
+    transition: 3s;
+}
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* terzo ex. */
+
+.ex-3-square {
+    transition: 5s;
+}
+
+.ex-3-square:hover {
+    border-radius: 100%;
+}
+
+/* quarto ex. */
+
+.ex-4-square {
+    transition: 3s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* quinto ex. */
+.ex-5-square {
+    transition: 2s;
+}
+
+.ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active {
+    width: 20px;
+    height: 20px;
+}
+
+/* sesto ex. */
+
+.ex-6-img {
+    transition: 4s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale();
+}
+
+/* settimo ex. */
+
+.ex-7-img {
+    transition: 5s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale() sepia(.5);
+}
+
+/* ottavo ex. */
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(.5) opacity(.8);
+    border-radius: 10px;
+}
+
+/* nono ex. */
+
+.ex-9-img {
+    transition: 5s;
+}
+
+.ex-9-img:hover {
+    filter: contrast(.6) opacity(.6) grayscale(.5);
+    border-radius: 10px;
+    transform: scale(3);
+}
+
+/* decimo ex. */
+
+.ex-10-icon {
+    animation: caricamento 1s infinite;
+}
+
+@keyframes caricamento {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* undicesimo ex. */
+
+.ex-11-icon:hover {
+    animation: metàcar 2s;
+}
+@keyframes metàcar {
+    0% {
+        transform: rotate(0deg)
+    }
+    80% {transform: rotate(.8turn);  
+    }    
+}
+
+
