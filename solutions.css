@@ -119,4 +119,44 @@
     }    
 }
 
+/* dodicesimo ex. */
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: spacewhiteup 1s;
+}
+@keyframes spacewhiteup {
+    0% {left: 10%;}
+    50% {left: 70%;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: spacewhitebottom 1s;
+}
+@keyframes spacewhitebottom {
+    0% {right: 10%;}
+    50% {right: 70%;}
+}
+
+
+
+/* tredicesimo ex. 
+
+.ex-13-button:hover .ex-13-up-white {
+    animation: uprotate 2s infinite;
+}
+@keyframes uprotate {
+    0% {}
+    50% {}
+}
+
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: bottomrotate 2s infinite;
+}
+@keyframes bottomrotate {
+    0% {;}
+    50% {}
+    100% {}
+} */
+
+ 
